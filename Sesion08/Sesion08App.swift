@@ -13,7 +13,7 @@ struct Sesion08App: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TaskListView()
                 .environment(
                     \.managedObjectContext,
                      persistence.container.viewContext

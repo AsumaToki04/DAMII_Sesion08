@@ -15,8 +15,8 @@ struct PersistenceController {
     private init() {
         container = NSPersistentContainer(name : "Sesion08")
         container.loadPersistentStores {_, error in
-            if let er = error as? NSError {
-                fatalError("No se pudo conectar a la BD: \(er)")
+            if let err = error as? NSError {
+                fatalError("Error al crear DB: \(err.localizedDescription)")
             }
         }
     }

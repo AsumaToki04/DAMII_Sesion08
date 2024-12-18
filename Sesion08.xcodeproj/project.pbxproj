@@ -14,6 +14,12 @@
 		B782E6262D12509500BCC838 /* Sesion08.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B782E6242D12509500BCC838 /* Sesion08.xcdatamodeld */; };
 		B782E62D2D12520300BCC838 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782E62C2D12520300BCC838 /* Persistence.swift */; };
 		B782E6302D12525400BCC838 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B782E62F2D12525400BCC838 /* Alamofire */; };
+		B782E6322D1254C100BCC838 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782E6312D1254C100BCC838 /* Models.swift */; };
+		B782E6362D12560C00BCC838 /* AppServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782E6352D12560C00BCC838 /* AppServices.swift */; };
+		B782E63A2D125A4700BCC838 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782E6392D125A4700BCC838 /* TaskViewModel.swift */; };
+		B782E63C2D12614200BCC838 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782E63B2D12614200BCC838 /* TaskListView.swift */; };
+		B782E63E2D12614D00BCC838 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782E63D2D12614D00BCC838 /* AddTaskView.swift */; };
+		B782E6402D126D5900BCC838 /* SearchTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B782E63F2D126D5900BCC838 /* SearchTagView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		B782E6202D12509500BCC838 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B782E6252D12509500BCC838 /* Sesion08.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sesion08.xcdatamodel; sourceTree = "<group>"; };
 		B782E62C2D12520300BCC838 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		B782E6312D1254C100BCC838 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B782E6352D12560C00BCC838 /* AppServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppServices.swift; sourceTree = "<group>"; };
+		B782E6392D125A4700BCC838 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		B782E63B2D12614200BCC838 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		B782E63D2D12614D00BCC838 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		B782E63F2D126D5900BCC838 /* SearchTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTagView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,12 @@
 				B782E6242D12509500BCC838 /* Sesion08.xcdatamodeld */,
 				B782E61F2D12509500BCC838 /* Preview Content */,
 				B782E62C2D12520300BCC838 /* Persistence.swift */,
+				B782E6312D1254C100BCC838 /* Models.swift */,
+				B782E6352D12560C00BCC838 /* AppServices.swift */,
+				B782E6392D125A4700BCC838 /* TaskViewModel.swift */,
+				B782E63B2D12614200BCC838 /* TaskListView.swift */,
+				B782E63D2D12614D00BCC838 /* AddTaskView.swift */,
+				B782E63F2D126D5900BCC838 /* SearchTagView.swift */,
 			);
 			path = Sesion08;
 			sourceTree = "<group>";
@@ -152,9 +170,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B782E61C2D12509400BCC838 /* ContentView.swift in Sources */,
+				B782E6362D12560C00BCC838 /* AppServices.swift in Sources */,
 				B782E62D2D12520300BCC838 /* Persistence.swift in Sources */,
+				B782E63E2D12614D00BCC838 /* AddTaskView.swift in Sources */,
 				B782E6262D12509500BCC838 /* Sesion08.xcdatamodeld in Sources */,
+				B782E6402D126D5900BCC838 /* SearchTagView.swift in Sources */,
+				B782E63A2D125A4700BCC838 /* TaskViewModel.swift in Sources */,
 				B782E61A2D12509400BCC838 /* Sesion08App.swift in Sources */,
+				B782E6322D1254C100BCC838 /* Models.swift in Sources */,
+				B782E63C2D12614200BCC838 /* TaskListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
